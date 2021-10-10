@@ -8,3 +8,7 @@ I use the Bash mode of the console emulator [Cmdr](https://cmder.net/).
 ```console
 pandoc *.md > All.html
 ```
+After that you can either create the TOC using [Calibre](https://calibre-ebook.com/) or let Pandoc do it using 
+```console
+pandoc --toc All.html > Book.epub
+```
